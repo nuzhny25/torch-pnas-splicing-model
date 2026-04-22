@@ -1,7 +1,7 @@
 """Utility helpers for generating and encoding DNA sequences."""
-
-import numpy as np
 import random
+import numpy as np
+
 random.seed(42)
 
 def add_flanking(seqs):
